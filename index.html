@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta>
+    <title>Portfolio - Bryan</title>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    rel="stylesheet"
+    type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="wrapper1">
+
+    <h1 class="wrapper2">
+        Hello! I'm Bryan, Welcome!
+    </h1>
+<!-- add sick graphic -->
+
+    <h2 class="wrapper2">
+        Intro
+    </h2>
+    <p>
+        Currently I work as an industrial lab analyst. I have started taking courses
+        to pursue a career as a Full Stack Developer, hopefully Thinkful will help make
+        that transition easier.
+    </p>
+    <!--  add lab picture-->
+    <img src="Portfolio\images\Asbestos-Identification-Analysis.jpg" alt="Asbestos Lab microscope and picture of asbestos">
+    <p>
+        I am located in Orlando, Florida.
+    </p>
+
+<!-- add map and picture-->
+    <img src="Portfolio\images\Orlando-Florida-cityscape.jpg" alt="Orlando City Downtown">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99410.78461693953!
+    2d-81.42500294080988!3d28.509670348722224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!
+    1m2!1s0x88e773d8fecdbc77%3A0xac3b2063ca5bf9e!2sOrlando%2C%20FL!5e0!3m2!1sen!2sus!4v1645
+    296136263!5m2!1sen!2sus" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <h2 class="wrapper2">
+        About Me
+    </h2>
+    <p>
+        Currently I am pursuing a career in Full Stack Development.
+        My favorite part of the Thinkful bootcamp so far is learning javascript. 
+        Javascript allows me to create solutions to complex problems and 
+        I am eager to learn what the field has to offer.
+    </p>
+
+    <hr>
+
+    <p class="wrapper2">
+        When I am not learning I like to spend my time playing video games or canoeing.
+        <h3 class="wrapper2">
+            Games
+        </h3>
+            <p>
+                Some games I play include Pokemon and Animal crossing. (Send your friend code.)
+                <img src="Portfolio\images\Asbestos-Identification-Analysis.jpg" alt="Asbestos Lab microscope and picture of asbestos">
+                <img src="Portfolio\images\Asbestos-Identification-Analysis.jpg" alt="Asbestos Lab microscope and picture of asbestos">
+             </p>
+        <h3 class="wrapper2">
+            Canoeing
+        </h3>
+            <p>
+                Canoeing provides benefits to health like
+            </p>
+    </p>
+
+    <h2 class="wrapper2">
+        Contact
+    </h2>
+    <p>
+        <ol>
+            <!-- change to links-->
+            <li><a href="https://www.linkedin.com/in/bryan-lopez-244a03171/">LinkedIn</a></li>
+            <li><a href="https://github.com/kinilu1084">Github</a></li>
+        </ol>
+        <button class="accordion">Email</button>
+        <div id= "formcontainer" style= "display:none">
+        <form class="wrapper3" action="/tp-contact.php" name="MainForm" method="post" target="_self" enctype="multipart/form-data">
+            <div>
+               <div>
+                  <label>Your Name</label>  
+                  <input type="text" name="contactp" id="contactp" maxlength="30" class="form-control what">
+               </div>
+               <div>
+                  <label>Your Email </label>
+                  <input type="text" name="emailid" id="emailid" maxlength="75" class="form-control what">
+                  <i>(required)</i>
+               </div>
+               <div>
+                  <label>Subject :</label>
+                  <input type="text" name="subject" id="subject" maxlength="50" class="form-control what">
+               </div>        
+               <div>
+                  <label>Message <i>(required)</i></label>
+                  <textarea id="Message" name="message" class="form-control what" style="width:96%;"></textarea>
+               </div>
+               <div>
+          <label for="uploaded_file" style="margin-top:15px;">Select A File To Upload:</label>
+          <input type="file" name="uploaded_file" id="uploaded_file" style="width:98%; background:#fff; padding:5px; border:2px solid #d4d4d4;">
+               </div>
+               <br>
+               <div class="mui-col-md-12">
+                  <input type="submit" name="submit" value="Send Message" class="submit" style="top:5px; left:12px; border:none;" onclick="return ValidatePost();">
+               </div>
+            </div>
+            <div style="clear:both;"></div>
+                  <br>
+         </form>
+        </div>
+    </p>
+
+    <div class = "wrapper3">
+     <footer>
+          <p>&copy kinilu1084</p>
+     </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+
+</html>
