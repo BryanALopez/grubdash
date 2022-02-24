@@ -7,6 +7,8 @@
     background-color: #BCCCE0;
     background: #BCCCE0;
     background-image: url(../images/brick-room.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 /* use font-family, font-size, height*/
 .wrapper2{
