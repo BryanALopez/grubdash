@@ -6,7 +6,7 @@
     padding-left: 10px; /* 3 */
     background-color: #BCCCE0;
     background: #BCCCE0;
-    background-image: url(images\brick-room.jpg);
+    background-image: url(../images/brick-room.jpg);
 }
 /* use font-family, font-size, height*/
 .wrapper2{
