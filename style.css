@@ -1,15 +1,25 @@
+p, h2, h1, li{
+    color: rgb(178, 184, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    height: fit-content;
+    margin:auto
+    padding: 20px 
+}
+
 .wrapper1{
     margin-right: auto; /* 1 */
     margin-left: auto; /* 1 */
     max-width:1160px; /* 2 */
     padding-right: 10px; /* 3 */
     padding-left: 10px; /* 3 */
-    background-color: #BCCCE0;
-    background: #BCCCE0;
+    background-color: #5c4f4c;
+    background: #5c4f4c;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     height: fit-content;
     text-align: left;
+    
 }
 /* use font-family, font-size, height*/
 .wrapper2{
@@ -18,7 +28,7 @@
     max-width:1160px; /* 2 */
     padding-right: 10px; /* 3 */
     padding-left: 10px; /* 3 */
-    background-color: #bf98a0;
+    background-color: #a18273ee;
 }
 
 .wrapper3{
@@ -27,7 +37,7 @@
     max-width:1160px; /* 2 */
     padding-right: 10px; /* 3 */
     padding-left: 10px; /* 3 */
-    background-color: #bf98a0;
+    color: rgb(178, 184, 184)f98a0;
 }
 
 .accordion {
